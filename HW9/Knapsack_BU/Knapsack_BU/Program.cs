@@ -29,7 +29,7 @@ namespace Knapsack_BU
                     }
                     else
                     {
-                        Console.WriteLine("V[{0}.{1}] = V[{2},{1}]", i, j, i - 1);
+                        Console.WriteLine("V[{0},{1}] = V[{2},{1}]", i, j, i - 1);
                         storage[i, j] = storage[i - 1, j];
                     }
                 }
