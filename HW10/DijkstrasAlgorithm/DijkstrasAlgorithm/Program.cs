@@ -107,7 +107,7 @@ namespace DijkstrasAlgorithm
                 new Edge(9, nodes[9], nodes[11]),
                 new Edge(8, nodes[10], nodes[11]),
             };
-            string.Join(", ", Dijkstra(nodes, edges, nodes[0]));
+            Dijkstra(nodes, edges, nodes[0]);
         }
 
         private static void WritePathTo(Vertex v)
